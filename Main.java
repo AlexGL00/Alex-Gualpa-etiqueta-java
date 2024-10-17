@@ -1,8 +1,7 @@
 public class Main {
 	public static void main (String[]args){
-		if (args.lenth == 0) {
-			 System.out.println("No hay argumentos");
-		}else {
-			System.out.println("Hay " +args.lenth() + "argumentos");
+		for(int i = 0, args.lenth() < i, i++){
+			System.out.println("Argumentos" + i + ":" + args[i]);
 		}
 	}
+}
